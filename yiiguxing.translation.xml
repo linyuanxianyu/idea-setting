@@ -1,0 +1,73 @@
+<application>
+  <component name="AppStorage">
+    <histories>
+      <item value="Characters that cannot be directly represented in this encoding can be written using Unicode escapes as defined in section 3.3 of The Java&amp;trade; Language Specification; only a single 'u' character is allowed in an escape sequence." />
+      <item value="store(Writer, String)} methods load and store properties from and to a character based stream in a simple line-oriented format specified below." />
+      <item value="compromised" />
+      <item value="If the {@code store} or {@code save} method is called on a &quot;compromised&quot; {@code Properties} object that contains a non-{@code String} key or value, the call will fail." />
+      <item value="Their use is strongly discouraged as they allow the caller to insert entries whose keys or values are not {@code Strings}." />
+      <item value="represents a persistent set of properties." />
+      <item value="A MessageDigest object starts out initialized. The data is processed through it using the {@link #update(byte) update} methods. At any point {@link #reset() reset} can be called to reset the digest. Once all the data to be updated has been updated, one of the {@link #digest() digest} methods should be called to complete the hash computation." />
+      <item value="Cryptography" />
+      <item value="all the methods in the superclass are intended for cryptographic service providers who wish to supply their own implementations of message digest algorithms." />
+      <item value="Note that if a given implementation is not cloneable, it is still possible to compute intermediate digests by instantiating several instances, if the number of digests is known in advance." />
+      <item value="Implementations are free to implement the Cloneable interface. Client applications can test cloneability by attempting cloning and catching the CloneNotSupportedException:" />
+      <item value="Message Digest" />
+      <item value="maybe check for a system property which will specify where to // look. Someday." />
+      <item value="The top 8 bits of each 16-bit Unicode code unit" />
+      <item value="deprecation" />
+      <item value="Alphabet" />
+      <item value="Algorithm" />
+      <item value="Writes two bytes containing the given short value, in the current byte order, into this buffer at the current position, and then increments the position by two." />
+      <item value="Constant denoting little-endian byte order. In this order, the bytes of a multibyte value are ordered from least significant to most significant." />
+      <item value="little" />
+      <item value="and each of its elements will be initialized to zero" />
+      <item value="its mark will be undefined" />
+      <item value="its limit will be its capacity," />
+      <item value="Copies an array from the specified source array, beginning at the specified position, to the specified position of the destination array. A subsequence of array components are copied from the source array referenced by src to the destination array referenced by dest. The number of components copied is equal to the length argument. The components at positions srcPos through srcPos+length-1 in the source array are copied into positions destPos through destPos+length-1, respectively, of the destination array. If the src and dest arguments refer to the same array object, then the copying is performed as if the components at positions srcPos through srcPos+length-1 were first copied to a temporary array with length components and then the contents of the temporary array were copied into positions destPos through destPos+length-1 of the destination array. If dest is null, then a NullPointerException is thrown. If src is null, then a NullPointerException is thrown and the destination array is not modified. Otherwise, if any of the following is true, an ArrayStoreException is thrown and the destination is not modified: The src argument refers to an object that is not an array. The dest argument refers to an object that is not an array. The src argument and dest argument refer to arrays whose component types are different primitive types. The src argument refers to an array with a primitive component type and the dest argument refers to an array with a reference component type. The src argument refers to an array with a reference component type and the dest argument refers to an array with a primitive component type. Otherwise, if any of the following is true, an IndexOutOfBoundsException is thrown and the destination is not modified: The srcPos argument is negative. The destPos argument is negative. The length argument is negative. srcPos+length is greater than src.length, the length of the source array. destPos+length is greater than dest.length, the length of the destination array. Otherwise, if any actual component of the source array from position srcPos through srcPos+length-1 cannot be converted to the component type of the destination array by assignment conversion, an ArrayStoreException is thrown. In this case, let k be the smallest nonnegative integer less than length such that src[srcPos+k] cannot be converted to the component type of the destination array; when the exception is thrown, source array components from positions srcPos through srcPos+k-1 will already have been copied to destination array positions destPos through destPos+k-1 and no other positions of the destination array will have been modified. (Because of the restrictions already itemized, this paragraph effectively applies only to the situation where both arrays have component types that are reference types.)" />
+      <item value="the number of array elements to be copied." />
+      <item value="negative" />
+      <item value="The src argument refers to an array with a primitive component type and the dest argument refers to an array with a reference component type." />
+      <item value="primitive" />
+      <item value="respectively" />
+      <item value="Reads some number of bytes from the input stream and stores them into the buffer array b. The number of bytes actually read is returned as an integer. This method blocks until input data is available, end of file is detected, or an exception is thrown. If the length of b is zero, then no bytes are read and 0 is returned; otherwise, there is an attempt to read at least one byte. If no byte is available because the stream is at the end of the file, the value -1 is returned; otherwise, at least one byte is read and stored into b. The first byte read is stored into element b[0], the next one into b[1], and so on. The number of bytes read is, at most, equal to the length of b. Let k be the number of bytes actually read; these bytes will be stored in elements b[0] through b[k-1], leaving elements b[k] through b[b.length-1] unaffected. The read(b) method for class InputStream has the same effect as: read(b, 0, b.length)" />
+      <item value="Containers must communicate the content type and the character encoding used for the servlet response's writer to the client if the protocol provides a way for doing so. In the case of HTTP, the Content-Type header is used." />
+      <item value="The PrintWriter uses the character encoding returned by {@link #getCharacterEncoding}." />
+      <item value="send character text to the client." />
+      <item value="Flushes this output stream and forces any buffered output bytes to be written out. The general contract of flush is that calling it is an indication that, if any bytes previously written have been buffered by the implementation of the output stream, such bytes should immediately be written to their intended destination." />
+      <item value="A call to this method automatically commits the response, meaning the status code and headers will be written." />
+      <item value="Returns a {@link ServletOutputStream} suitable for writing binary data in the response. The servlet container does not encode the binary data. Calling flush() on the ServletOutputStream commits the response. Either this method or {@link #getWriter} may be called to write the body, not both." />
+      <item value="return" />
+      <item value="相对位置" />
+      <item value="Absolute" />
+      <item value="Prints formatted representations of objects to a text-output stream. This class implements all of the print methods found in {@link PrintStream}. It does not contain methods for writing raw bytes, for which a program should use unencoded byte streams. Unlike the {@link PrintStream} class, if automatic flushing is enabled it will be done only when one of the println, printf, or format methods is invoked, rather than whenever a newline character happens to be output. These methods use the platform's own notion of line separator rather than the newline character. Methods in this class never throw I/O exceptions, although some of its constructors may. The client may inquire as to whether any errors have occurred by invoking {@link #checkError checkError()}." />
+      <item value="Forces any content in the buffer to be written to the client. A call to this method automatically commits the response, meaning the status code and headers will be written." />
+      <item value="Containers must communicate the character encoding used for the servlet response's writer to the client if the protocol provides a way for doing so." />
+      <item value="communicate" />
+      <item value="Calling {@link #setContentType} with the String of text/html and calling this method with the String of UTF-8 is equivalent with calling setContentType with the String of text/html; charset=UTF-8." />
+      <item value="If the character encoding has already been set by container default, ServletContext default, {@link #setContentType} or {@link #setLocale}, this method overrides it." />
+      <item value="a PrintWriter object that can return character data to the client" />
+      <item value="Either this method or {@link #getOutputStream} may be called to write the body, not both." />
+      <item value="Writes the specified byte to this output stream. The general contract for write is that one byte is written to the output stream. The byte to be written is the eight low-order bits of the argument b. The 24 high-order bits of b are ignored. Subclasses of OutputStream must provide an implementation for this method." />
+      <item value="If true, prevents a user from authenticating when the {@link #maximumSessions(int)} has been reached. Otherwise (default), the user who authenticates is allowed access and an existing user's session is expired. The user's who's session is forcibly expired is sent to {@link #expiredUrl(String)}. The advantage of this approach is if a user accidentally does not log out, there is no need for an administrator to intervene or wait till their session expires." />
+      <item value="GETZGSWJDMLIST" />
+    </histories>
+    <option name="languageScores">
+      <map>
+        <entry key="CHINESE" value="116" />
+        <entry key="ENGLISH" value="117" />
+        <entry key="RUSSIAN" value="1" />
+        <entry key="ROMANIAN" value="2" />
+      </map>
+    </option>
+  </component>
+  <component name="Settings">
+    <option name="baiduTranslateSettings">
+      <app-key>
+        <option name="appId" value="15180254927" />
+      </app-key>
+    </option>
+    <option name="ignoreRegExp" value="\*|&lt;\w+?&gt;|&lt;\/\w+?&gt;" />
+    <option name="separators" value="_-*" />
+  </component>
+</application>
